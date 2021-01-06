@@ -1,4 +1,5 @@
 body{
+    margin: 0;
     font-family: 'Bebas Neue', cursive;
 }
 h1{
@@ -6,7 +7,7 @@ font-family: Bebas Neue;
 font-style: normal;
 font-weight: bold;
 font-size: 80px;
-line-height: 80px;
+line-height: 10px;
 }
 h3{
 width: 309px;
@@ -30,4 +31,24 @@ color: #3E3E3E;
 }
 .half-width img{
     width: 100%;
+ }
+ section{
+     height: 613px;
+     padding-bottom: 150px;
+ }
+ .link-button{
+    text-decoration: none;
+    background: linear-gradient(0deg, #FF8063 -28.33%, #F46060 95.83%);
+    border-radius: 6px;
+    padding: 10px 20px;
+    color: white;
+    font-weight: 500;
+ }
+ .para{
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 24px;
+ }
+ h2{
+     font-size: 40px;
  }
